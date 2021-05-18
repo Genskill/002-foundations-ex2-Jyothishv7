@@ -21,15 +21,20 @@ void main()
 
  else if(pat == 2)
  {
- 	for(int i=0; i<=rows;++i)
- 	{
- 		for(int j=0;j<rows;++j)
- 		{ 
- 			if((i+j)<=(rows-1))
- 			 printf(" ");
- 			else
- 			 printf("#");
- 		}
- 		printf("\n");
- 	}
+  for(int x=1; x<=rows; ++x)
+   {
+     for(int y=x; y<rows; ++y)
+       {
+            printf(" ");
+       }
+        
+     for(int y=1; y<=x; ++y)
+        {
+            printf("#");
+        }
+        
+        printf("\n");
+    }
  }
+ 
+}

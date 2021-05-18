@@ -5,8 +5,8 @@ void main()
 
 {
  int i,j;
- int pat =get_int("enter the pattern u need(1 or 2)\n");
- int rows =get_int("Enter the number of rows =\n ");
+ int pat =get_int("Enter type of pattern (1 or 2)");
+ int rows =get_int("Number of rows");
  if(pat == 1)
  {
   for(i=0; i<rows; ++i)

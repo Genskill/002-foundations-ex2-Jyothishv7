@@ -4,14 +4,14 @@
 void main()
 
 {
- 
+ int i,j;
  int pat =get_int("enter the pattern u need(1 or 2)\n");
- int rows =get_int("Enter the number of rows =\n ")
+ int rows =get_int("Enter the number of rows =\n ");
  if(pat == 1)
  {
-  for(int x=0; x<rows; ++x)
+  for(i=0; i<rows; ++i)
   {
-   for(int y=x; y< rows; ++y)
+   for(j=i; j< rows; ++j)
    {
      printf("#");
    }
@@ -21,14 +21,14 @@ void main()
 
  else if(pat == 2)
  {
-  for(int x=1; x<=rows; ++x)
+  for(i=1; i<=rows; ++i)
    {
-     for(int y=x; y<rows; ++y)
+     for(j=i; j<rows; ++j)
        {
             printf(" ");
        }
         
-     for(int y=1; y<=x; ++y)
+     for(j=1; j<=i; ++j)
         {
             printf("#");
         }

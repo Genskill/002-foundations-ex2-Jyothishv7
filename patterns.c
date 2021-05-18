@@ -21,9 +21,9 @@ void main()
 
  else if(pat == 2)
  {
- 	for(int i=0; i<rows;++i)
+ 	for(int i=0; i<=rows;++i)
  	{
- 		for(int j=0;j<i;++j)
+ 		for(int j=0;j<rows;++j)
  		{ 
  			if((i+j)<=(rows-1))
  			 printf(" ");

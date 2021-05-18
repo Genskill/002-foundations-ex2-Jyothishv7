@@ -32,4 +32,4 @@ else if(choice==2)
 }
 else
  printf("error");
-};
+}

@@ -2,25 +2,25 @@
 #include<cs50.h>
 int main(void)
 {
-	float s1=get_float("side 1 ");
-	float s2=get_float("side 2 ");
-	float s3=get_float("side 3 ");
-	if(s1>s2 && s1>s3)
+	float num1=get_float("side 1 ");
+	float num2=get_float("side 2 ");
+	float num3=get_float("side 3 ");
+	if(num1>num2 && num1>num3)
 		{
-			if(s2*s2+s3*s3==s1*s1)
+			if(num2*num2+num3*num3==num1*num1)
 			printf("Yes");
 			else
 			printf("No");
 		}
-	if(s2>s3 && s2>s1)
+	if(num2>num3 && num2>num1)
 		{
-			if(s1*s1+s3*s3==s2*s2)
+			if(num1*num1+num3*num3==num2*num2)
 			printf("Yes");
 			else
 			printf("No");
 		}
 	else
-		{	if(s1*s1+s2*s2==s3*s3)
+		{	if(num1*num1+num2*num2==num3*num3)
 			printf("Yes");
 			else
 			printf("No");
